@@ -6,9 +6,9 @@ import { BannerComponent } from './core/Components/banner/banner.component';
 
 const routes: Routes = [
   // {path:'',loadComponent:()=>import('./login/login.component').then(a=>a.LoginComponent)},
-  {path:'',component:LoginComponent},
+  // {path:'',component:LoginComponent},
   // {path:'browse',loadComponent:()=>import('./browse/browse.component').then(a=>a.BrowseComponent)}
-  {path:'browse',component:BrowseComponent},
+  {path:'',component:BrowseComponent},
   {path:'banner',component:BannerComponent}
 ];
 
